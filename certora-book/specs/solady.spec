@@ -16,4 +16,4 @@ rule min(){
         assert !lastReverted;
         assert c == b;
     } 
-}
+}b
