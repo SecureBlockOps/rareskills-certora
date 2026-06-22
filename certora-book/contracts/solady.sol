@@ -782,7 +782,7 @@ contract solady {
     function zeroFloorSub(
         uint256 x,
         uint256 y
-    ) internal pure returns (uint256 z) {
+    ) external pure returns (uint256 z) {
         /// @solidity memory-safe-assembly
         assembly {
             z := mul(gt(x, y), sub(x, y))
